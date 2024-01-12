@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bs-btn{
+    background-color: #3fa491;
+}
+
+.add-input{
+    border: 0.5px solid gray;
+    border-radius: 6px;
+}
+
+.add-input:focus{
+    outline: none;
+}
+
+.bs-details{
+    background-color: #5eb3e3;
+}
+
+.radius{
+    border-radius: 6px;
+}
+
+.bs-width{
+    width: 75%;
+}
+
+@media (max-width: 768px) {
+    .bs-width{
+        width: 95%;
+    }
+}
