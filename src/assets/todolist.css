@@ -4,33 +4,57 @@
     box-sizing: border-box;
 }
 
-.bs-btn{
+.bs-btn {
     background-color: #3fa491;
 }
 
-.add-input{
+.add-input {
     border: 0.5px solid gray;
     border-radius: 6px;
 }
 
-.add-input:focus{
+.add-input:focus {
     outline: none;
 }
 
-.bs-details{
+.bs-details {
     background-color: #5eb3e3;
 }
 
-.radius{
+.radius {
     border-radius: 6px;
 }
 
-.bs-width{
+.bs-width {
     width: 75%;
 }
 
+.bs-underline {
+    height: 1px;
+    width: 125px;
+    background-color: gray;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background: #5eb3e3;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555555ab;
+}
+
+
 @media (max-width: 768px) {
-    .bs-width{
+    .bs-width {
         width: 95%;
     }
 }

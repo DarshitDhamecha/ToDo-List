@@ -78,12 +78,15 @@ export default function ToDo() {
                 <div className='bs-width h-fit bs-blur mt-5 main-content'>
                     <div className='mb-5'>
                         <h3>Add Your List Here</h3>
+                        <div className='w-100'>
+                            <div className='bs-underline mx-auto'></div>
+                        </div>
                     </div>
                     <div className='d-flex gap-3'>
                         <input
                             type="text"
                             className='w-100 px-3 add-input'
-                            placeholder='Enter Your Task'
+                            placeholder='Enter Your List'
                             value={inputData}
                             onChange={(e) => setInputData(e.target.value)}
                         />
